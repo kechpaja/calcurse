@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR calcurse Development Team <misc@calcurse.org>
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Frob Nicator <mart@martlubbers.net>, 2016
 # Lukas Fleischer <transifex@cryptocrack.de>, 2011
@@ -11,15 +11,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calcurse\n"
 "Report-Msgid-Bugs-To: bugs@calcurse.org\n"
-"POT-Creation-Date: 2019-06-16 15:27-0400\n"
-"PO-Revision-Date: 2019-05-30 11:52+0000\n"
+"POT-Creation-Date: 2020-01-30 19:14+0100\n"
+"PO-Revision-Date: 2020-01-30 18:17+0000\n"
 "Last-Translator: Lukas Fleischer\n"
-"Language-Team: Dutch (http://www.transifex.com/lfleischer/calcurse/language/"
-"nl/)\n"
-"Language: nl\n"
+"Language-Team: Dutch (http://www.transifex.com/lfleischer/calcurse/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "null pointer"
@@ -35,10 +34,8 @@ msgid ""
 "Usage:\n"
 "calcurse [-D <directory>] [-C <directory>] [-c <calendar file>]\n"
 "calcurse -Q [--from <date>] [--to <date>] [--days <number>]\n"
-"calcurse -a | -d <date> | -d <number> | -n | -r[<number>] | -s[<date>] | -"
-"t[<number>]\n"
-"calcurse -h | -v | --status | -G | -P | -g | -i <file> | -x[<file>] | --"
-"daemon"
+"calcurse -a | -d <date> | -d <number> | -n | -r[<number>] | -s[<date>] | -t[<number>]\n"
+"calcurse -h | -v | --status | -G | -P | -g | -i <file> | -x[<file>] | --daemon"
 msgstr ""
 
 msgid "Try `calcurse -h` for more information."
@@ -303,9 +300,7 @@ msgstr ""
 msgid ""
 "Pre-3.0.0 configuration file format detected, please upgrade running "
 "`calcurse-upgrade`."
-msgstr ""
-"Pre-3.0.0 configuratiebestandsformaat gevonden, gelieve bij te werken met "
-"`calcurse-upgrade`."
+msgstr "Pre-3.0.0 configuratiebestandsformaat gevonden, gelieve bij te werken met `calcurse-upgrade`."
 
 #, c-format
 msgid "unknown user option: \"%s\" (ignored)"
@@ -383,6 +378,9 @@ msgstr ""
 msgid "(insert an empty line after each appointment)"
 msgstr ""
 
+msgid "(text for a day without events and appointments)"
+msgstr ""
+
 msgid "(display more than one day in the appointments panel)"
 msgstr ""
 
@@ -404,7 +402,8 @@ msgstr "(Bij JA, wordt er een bevestiging gevraagd bij eindigen programma"
 msgid "(if set to YES, confirmation is required before deleting an event)"
 msgstr "(Bij JA, is een bevestiging nodig voor het wissen van een gebeurtenis)"
 
-msgid "(if set to YES, messages about loaded and saved data will be displayed)"
+msgid ""
+"(if set to YES, messages about loaded and saved data will be displayed)"
 msgstr ""
 
 msgid "Monday"
@@ -437,6 +436,9 @@ msgstr ""
 msgid "(Format of the date displayed in the appointments panel)"
 msgstr ""
 
+msgid "Enter a text string (an empty string for the default text)"
+msgstr ""
+
 msgid "Enter the date format (see 'man 3 strftime' for possible formats) "
 msgstr "Geef het formaat van de datum (zie 'man 3 strftime')"
 
@@ -444,9 +446,7 @@ msgid "Enter the date format: "
 msgstr ""
 
 msgid "Enter the delay, in minutes, between automatic saves (0 to disable) "
-msgstr ""
-"Voer het tijdsinterval in minuten voor automatisch opslaan (0 om dit uit te "
-"schakelen)"
+msgstr "Voer het tijdsinterval in minuten voor automatisch opslaan (0 om dit uit te schakelen)"
 
 msgid "general options"
 msgstr "Algemene opties"
@@ -473,9 +473,7 @@ msgstr ""
 msgid ""
 "Sorry, colors are not supported by your terminal\n"
 "(Press [ENTER] to continue)"
-msgstr ""
-"Helaas wordt kleur niet door uw terminal ondersteund.\n"
-"(druk op [ENTER] om door te gaan)"
+msgstr "Helaas wordt kleur niet door uw terminal ondersteund.\n(druk op [ENTER] om door te gaan)"
 
 #, c-format
 msgid "Could not save %s."
@@ -483,9 +481,6 @@ msgstr ""
 
 msgid "unknown item type"
 msgstr "ongekend type item"
-
-msgid "(none)"
-msgstr ""
 
 msgid "Event:"
 msgstr ""
@@ -700,13 +695,8 @@ msgstr ""
 msgid ""
 "\n"
 "Too many errors while reading configuration file!\n"
-"Please backup your keys file, remove it from directory, and launch calcurse "
-"again.\n"
-msgstr ""
-"\n"
-"Teveel fouten tijdens het lezen van het configuratiebestand!\n"
-"Maak een backup van het sneltoetsenbestand, verwijder het van de map en "
-"start calcurse opnieuw op.\n"
+"Please backup your keys file, remove it from directory, and launch calcurse again.\n"
+msgstr "\nTeveel fouten tijdens het lezen van het configuratiebestand!\nMaak een backup van het sneltoetsenbestand, verwijder het van de map en start calcurse opnieuw op.\n"
 
 msgid "Could not read key label"
 msgstr ""
@@ -726,8 +716,7 @@ msgid "There were some errors when loading keys file."
 msgstr ""
 
 msgid "Too many errors while reading keys file, aborting..."
-msgstr ""
-"Teveel fouten bij het laden van het sneltoetsenbestand, wordt afgebroken ..."
+msgstr "Teveel fouten bij het laden van het sneltoetsenbestand, wordt afgebroken ..."
 
 #, c-format
 msgid "FATAL ERROR: could not create %s: %s\n"
@@ -810,8 +799,7 @@ msgstr ""
 
 #, c-format
 msgid "Warning: could not erase temporary log file %s, Aborting..."
-msgstr ""
-"Waarschuwing: kon het tijdelijke logbestand %s niet verwijderen. Afbreken ..."
+msgstr "Waarschuwing: kon het tijdelijke logbestand %s niet verwijderen. Afbreken ..."
 
 msgid "Invalid delay"
 msgstr ""
@@ -1116,7 +1104,8 @@ msgid ""
 "Select the first day of the current week when inside the calendar panel."
 msgstr ""
 
-msgid "Select the last day of the current week when inside the calendar panel."
+msgid ""
+"Select the last day of the current week when inside the calendar panel."
 msgstr ""
 
 msgid "Add an item to the currently selected panel."
@@ -1141,9 +1130,7 @@ msgid "Pipe the currently selected item to an external program."
 msgstr ""
 
 msgid "Attach (or edit if one exists) a note to the currently selected item"
-msgstr ""
-"Voeg een noot toe aan het huidig geselecteerde item (of wijzig dit indien "
-"bestaande)"
+msgstr "Voeg een noot toe aan het huidig geselecteerde item (of wijzig dit indien bestaande)"
 
 msgid "View the note attached to the currently selected item."
 msgstr "Bekijk de noot toegevoegd aan het huidig geselecteerde item"
@@ -1268,9 +1255,7 @@ msgstr "(Formaat van de tijd in de informatiebalk.)"
 
 msgid ""
 "(Warn user if an appointment is within next 'notify-bar_warning' seconds)"
-msgstr ""
-"Meldt gebruiker dat er een afspraak binnen 'informatiebalk_waarschuwing' "
-"seconden is"
+msgstr "Meldt gebruiker dat er een afspraak binnen 'informatiebalk_waarschuwing' seconden is"
 
 msgid "(Command used to notify user of an upcoming appointment)"
 msgstr "(Commando dat melding geeft van op handen zijnde afspraak)"
@@ -1452,7 +1437,8 @@ msgstr ""
 msgid "Pipe item to external command:"
 msgstr ""
 
-msgid "Enter start time ([hh:mm] or [hhmm]), leave blank for an all-day event:"
+msgid ""
+"Enter start time ([hh:mm] or [hhmm]), leave blank for an all-day event:"
 msgstr ""
 
 msgid ""
@@ -1609,8 +1595,7 @@ msgstr ""
 
 msgid ""
 "\n"
-"If a previous conversion did not complete, please try to remove this file "
-"and\n"
+"If a previous conversion did not complete, please try to remove this file and\n"
 "start over with a backup of your old configuration file."
 msgstr ""
 
